@@ -5,11 +5,11 @@ it is an algorithm that its time execution is proportional to the logarithm of t
 Binary Search 
 ```js
 const binarySearch (sortedArray,target)=>{
-    let startIndex =0
-    let endIndex = sortedArray.lenght -1
-
-    while(startIndex < endIndex){
-        let  middleIndex = Math.floor((lastIndex + firstIndex)/2);
+    let startIndex =0,
+        endIndex = sortedArray.lenght -1,
+        middleIndex
+    while(startIndex <= endIndex){
+          middleIndex = Math.floor((lastIndex + firstIndex)/2);
         if(target === sortedArray[middleIndex]){
             return console.log(`target found in ${middleIndex }`)
         }
