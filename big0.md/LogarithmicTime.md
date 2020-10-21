@@ -20,5 +20,6 @@ const binarySearch (sortedArray,target)=>{
         }
 
     }
+    return false
 }
 ```
