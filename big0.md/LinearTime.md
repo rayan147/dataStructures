@@ -3,6 +3,7 @@ it is an algorithm that grows in direct proportion to is input size ,in other wo
 time grows linearly or parallel  as input size increases
 
 ### Example 
+```js
 const  numberTobeFound = 66;
 const  numbers = [ 33, 435, 36, 37, 43, 45, 66, 656, 2232 ];
 for ( const iterator of numbers){
@@ -10,6 +11,7 @@ for ( const iterator of numbers){
         return console.log(`I have found ${numberTobeFound}`)
     }
 }
+```
  ### More Example
 Array: Linear Search, Traversing, Find minimum etc
 ArrayList: contains method
